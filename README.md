@@ -5,7 +5,7 @@ This list is subject to change and will be updated regularly.
 
 *Maintained at [bobpage0451/ai-trending-repos](https://github.com/bobpage0451/ai-trending-repos) • Last updated: 2026-09-23 (refreshed bi-weekly)*
 
-![banner_graph](banner_graph.png)
+![banner_blackboard](banner_blackboard.png)
 - [App orchestration layer](#app-orchestration-layer)
 - [RAG, memory, and knowledge layer](#rag-memory-and-knowledge-layer)
 - [Agent and workflow layer](#agent-and-workflow-layer)
