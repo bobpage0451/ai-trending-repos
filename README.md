@@ -3,12 +3,13 @@
 A curated overview of the top open-source AI repositories, organised by category. Each section covers a distinct layer of the modern AI stack — from orchestration frameworks and RAG pipelines to coding agents, evaluation tooling, and model serving infrastructure.
 This list is subject to change and will be updated regularly.
 
-*Maintained at [bobpage0451/ai-trending-repos](https://github.com/bobpage0451/ai-trending-repos) • Last updated: 2026-10-13 (refreshed bi-weekly)*
+*Maintained at [bobpage0451/ai-trending-repos](https://github.com/bobpage0451/ai-trending-repos) • Last updated: 2026-10-24 (refreshed bi-weekly)*
 
 ![banner_blackboard](banners/banner_blackboard.png)
 
 - [App orchestration layer](#app-orchestration-layer)
 - [RAG, memory, and knowledge layer](#rag-memory-and-knowledge-layer)
+- [Model access, routing, and gateway layer](#model-access-routing-and-gateway-layer)
 - [Agent and workflow layer](#agent-and-workflow-layer)
 - [Tools, MCP, and integration layer](#tools-mcp-and-integration-layer)
 - [UI and generative interface layer](#ui-and-generative-interface-layer)
@@ -50,6 +51,8 @@ Give the model external, project, user, or company knowledge.
 
 | Repository | ⭐ Stars | 🍴 Forks | License | Language |
 |---|---|---|---|---|
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 133.8k | 12780 | ![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue) | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 102.5k | 9053 | ![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 92.2k | 10979 | ![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue) | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 67.1k | 7893 | ![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue) | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | 59.6k | 7563 | ![MIT](https://img.shields.io/badge/license-MIT-blue) | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
@@ -58,8 +61,16 @@ Give the model external, project, user, or company knowledge.
 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 39.1k | 3395 | ![MIT](https://img.shields.io/badge/license-MIT-blue) | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
 | [qdrant/qdrant](https://github.com/qdrant/qdrant) | 35.1k | 2743 | ![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue) | ![Rust](https://img.shields.io/badge/-Rust-000000?logo=rust&logoColor=white) |
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) | 29.5k | 2560 | ![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue) | ![Rust](https://img.shields.io/badge/-Rust-000000?logo=rust&logoColor=white) |
-| [weaviate/weaviate](https://github.com/weaviate/weaviate) | 16.9k | 1420 | ![BSD-3-Clause](https://img.shields.io/badge/license-BSD%203--Clause-blue) | ![Go](https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white) |
-| [memvid/memvid](https://github.com/memvid/memvid) | 16.6k | 1422 | ![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue) | ![Rust](https://img.shields.io/badge/-Rust-000000?logo=rust&logoColor=white) |
+
+## Model access, routing, and gateway layer
+
+This layer provides provider abstraction, OpenAI-compatible APIs, model routing, retries, rate limits, caching, fallbacks, and cost tracking across OpenAI, Anthropic, Gemini, Mistral, local models, and other providers.
+
+Avoid hardcoding your application to one model provider.
+
+| Repository | ⭐ Stars | 🍴 Forks | License | Language |
+|---|---|---|---|---|
+| [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84.4k | 5358 | ![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue) | ![Rust](https://img.shields.io/badge/-Rust-000000?logo=rust&logoColor=white) |
 
 ## Agent and workflow layer
 
@@ -70,6 +81,7 @@ Build systems that can plan, call tools, perform multi-step tasks, and coordinat
 | Repository | ⭐ Stars | 🍴 Forks | License | Language |
 |---|---|---|---|---|
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 391.9k | 82417 | ![MIT](https://img.shields.io/badge/license-MIT-blue) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
+| [morluto/rea](https://github.com/morluto/rea) | 372.3k | 93202 | ![MIT](https://img.shields.io/badge/license-MIT-blue) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 155.6k | 10247 | ![MIT](https://img.shields.io/badge/license-MIT-blue) | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 83.8k | 11671 | ![MIT](https://img.shields.io/badge/license-MIT-blue) | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
 | [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) | 70.8k | 9005 | ![MIT](https://img.shields.io/badge/license-MIT-blue) | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
@@ -78,7 +90,6 @@ Build systems that can plan, call tools, perform multi-step tasks, and coordinat
 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | 34.5k | 4324 | ![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue) | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | 30k | 4878 | ![MIT](https://img.shields.io/badge/license-MIT-blue) | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | 29.8k | 3075 | ![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue) | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
-| [letta-ai/letta](https://github.com/letta-ai/letta) | 25.1k | 2642 | ![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue) | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
 
 ## Tools, MCP, and integration layer
 
@@ -261,7 +272,7 @@ Model metadata is sourced from the [Hugging Face API](https://huggingface.co/doc
 | [Image & Vision](#image-vision) | 5 | 21 |
 | [Audio](#audio) | 4 | 42 |
 | [Multimodal](#multimodal) | 2 | 19 |
-| [Other](#other) | 2 | 4 |
+| [Other](#other) | 1 | 3 |
 
 ### Language
 
@@ -521,3 +532,4 @@ Turns text into numerical representations that help compare meanings, find simil
 | [mradermacher/Aztec-Coder-4B-i1-GGUF](https://huggingface.co/mradermacher/Aztec-Coder-4B-i1-GGUF) | 5.5k | 5.5k | 2 | Sep 2026 | ![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue) |
 | [mradermacher/Evidence-RL-9B-i1-GGUF](https://huggingface.co/mradermacher/Evidence-RL-9B-i1-GGUF) | 2.9k | 2.9k | 1 | Sep 2026 | ![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue) |
 | [mradermacher/Metis-8B-RL-GGUF](https://huggingface.co/mradermacher/Metis-8B-RL-GGUF) | 447 | 2.7k | 2 | Apr 2026 | ![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue) |
+
